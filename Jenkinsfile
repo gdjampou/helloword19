@@ -19,7 +19,7 @@ pipeline {
         sleep 10
       }
     }
-    stage('Bdocker'){
+    stage('docker'){
       steps {
         echo "image step"
         sleep 10
